@@ -29,7 +29,7 @@ export default function Resume() {
         <motion.div
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, margin: "-100px" }}
+          viewport={{ once: true, margin: "0px" }}
           variants={containerVariants}
         >
           <motion.h2 variants={itemVariants} className="text-3xl md:text-5xl font-bold mb-8 tracking-tight">

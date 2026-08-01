@@ -45,7 +45,7 @@ export default function Resume() {
                 <h3 className="text-2xl font-semibold">About Me</h3>
               </div>
               <p className="text-gray-300 leading-relaxed text-lg">
-                Computer Science undergraduate with hands-on experience in full-stack web development using React.js, Node.js, and MongoDB. Passionate about problem-solving and building scalable applications with a strong foundation in Data Structures and REST APIs. Constantly seeking to enhance technical skills through real-world projects.
+                Computer Science and Engineering student with strong foundations in Python, JavaScript, React, Node.js, and SQL. Passionate about full stack development, AI, and problem-solving, with hands-on experience building web applications and AI-based projects. Quick learner, collaborative team player, and eager to contribute to innovative software development as an intern.
               </p>
             </motion.div>
 
@@ -72,37 +72,55 @@ export default function Resume() {
                 <h3 className="text-2xl font-semibold">Technical Arsenal</h3>
               </div>
               
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
                 <div>
                   <h4 className="text-sm text-gray-500 uppercase tracking-wider mb-3">Languages</h4>
                   <ul className="space-y-2 text-gray-300">
-                    <li>Java, C++</li>
-                    <li>JavaScript, Python</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
                     <li>SQL</li>
                   </ul>
                 </div>
                 <div>
-                  <h4 className="text-sm text-gray-500 uppercase tracking-wider mb-3">Frontend</h4>
+                  <h4 className="text-sm text-gray-500 uppercase tracking-wider mb-3">Frameworks</h4>
                   <ul className="space-y-2 text-gray-300">
                     <li>React.js</li>
-                    <li>HTML, CSS</li>
-                    <li>Tailwind CSS</li>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>Flask</li>
                   </ul>
                 </div>
                 <div>
-                  <h4 className="text-sm text-gray-500 uppercase tracking-wider mb-3">Backend & DB</h4>
+                  <h4 className="text-sm text-gray-500 uppercase tracking-wider mb-3">Databases</h4>
                   <ul className="space-y-2 text-gray-300">
-                    <li>Node.js, Flask</li>
-                    <li>MongoDB, MySQL</li>
-                    <li>REST APIs, JWT</li>
+                    <li>MongoDB</li>
+                    <li>MySQL</li>
+                    <li>PostgreSQL</li>
                   </ul>
                 </div>
                 <div>
-                  <h4 className="text-sm text-gray-500 uppercase tracking-wider mb-3">Tools & Concepts</h4>
+                  <h4 className="text-sm text-gray-500 uppercase tracking-wider mb-3">AI / ML</h4>
                   <ul className="space-y-2 text-gray-300">
-                    <li>Git, GitHub, Docker</li>
-                    <li>Data Structures</li>
+                    <li>LangGraph</li>
+                    <li>RAG</li>
+                    <li>Machine Learning</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="text-sm text-gray-500 uppercase tracking-wider mb-3">Tools</h4>
+                  <ul className="space-y-2 text-gray-300">
+                    <li>Git, GitHub</li>
+                    <li>Docker</li>
+                    <li>VS Code</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="text-sm text-gray-500 uppercase tracking-wider mb-3">Core</h4>
+                  <ul className="space-y-2 text-gray-300">
+                    <li>DSA</li>
                     <li>OOP</li>
+                    <li>DBMS, CN</li>
+                    <li>REST APIs</li>
                   </ul>
                 </div>
               </div>

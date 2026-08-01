@@ -18,7 +18,7 @@ export default function Home() {
 
   return (
     <main className="w-full bg-[#121212] overflow-x-hidden text-white selection:bg-white/30">
-      <div ref={containerRef} className="relative h-[120vh]">
+      <div ref={containerRef} className="relative h-[300vh]">
         <div className="sticky top-0 min-h-[80vh] h-[100svh] w-full overflow-hidden bg-[#121212]">
           <ScrollyCanvas scrollYProgress={scrollYProgress} />
           <Overlay scrollYProgress={scrollYProgress} />

@@ -133,13 +133,22 @@ export default function Resume() {
                 <h3 className="text-2xl font-semibold">Certifications & Training</h3>
               </div>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div className="relative pl-6 border-l border-white/10">
                   <div className="absolute w-3 h-3 bg-gray-400 rounded-full -left-[6.5px] top-1.5 ring-4 ring-[#121212]"></div>
                   <h4 className="text-xl font-medium text-white mb-1">Deloitte Technology Job Simulation</h4>
                   <p className="text-gray-400 mb-2">Forage • Jan 2026</p>
                   <p className="text-gray-400 text-sm leading-relaxed">
                     Analyzed business requirements and proposed technical solutions. Completed real-world technology consulting simulation tasks.
+                  </p>
+                </div>
+
+                <div className="relative pl-6 border-l border-white/10">
+                  <div className="absolute w-3 h-3 bg-gray-400 rounded-full -left-[6.5px] top-1.5 ring-4 ring-[#121212]"></div>
+                  <h4 className="text-xl font-medium text-white mb-1">AI & Problem Solving Workshop</h4>
+                  <p className="text-gray-400 mb-2">AlgoUniversity • 2026</p>
+                  <p className="text-gray-400 text-sm leading-relaxed">
+                    AI & Problem Solving Workshop by AlgoUniversity, focused on AI concepts, structured problem-solving, and practical approaches to solving technology-driven challenges.
                   </p>
                 </div>
 

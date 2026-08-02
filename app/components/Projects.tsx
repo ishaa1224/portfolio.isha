@@ -5,6 +5,12 @@ import { motion } from "framer-motion";
 export default function Projects() {
   const projects = [
     {
+      title: "PageAudit — AI Web Content Analyzer",
+      category: "Next.js, TypeScript, Cheerio, AI Integration, Tailwind CSS",
+      description: "Developed a full-stack web application that extracts and analyzes webpage content from a URL using AI. Implemented robust URL validation, error handling, timeouts, and responsive report dashboards.",
+      link: "https://page-audit-rosy.vercel.app"
+    },
+    {
       title: "AgentFlow AI — AI Workflow Automation System",
       category: "Python, FastAPI, React, LangGraph, RAG",
       description: "Built a multi-agent AI system to automate task extraction, prioritization, and workflow management. Integrated RAG-based knowledge retrieval and a dashboard for tracking tasks, reminders, and workflow status.",

@@ -7,6 +7,7 @@ import Overlay from "./components/Overlay";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
+import ThemeToggle from "./components/ThemeToggle";
 
 export default function Home() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -17,7 +18,8 @@ export default function Home() {
   });
 
   return (
-    <main className="w-full bg-[#121212] text-white selection:bg-white/30">
+    <main className="w-full bg-bg-primary text-text-primary selection:bg-white/30 transition-colors duration-500">
+      <ThemeToggle />
       <div ref={containerRef} className="relative h-[300vh]" style={{ position: "relative" }}>
         <div className="sticky top-0 h-screen w-full overflow-hidden bg-[#121212]">
           <ScrollyCanvas scrollYProgress={scrollYProgress} />

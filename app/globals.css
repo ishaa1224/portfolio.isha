@@ -1,19 +1,68 @@
 @import "tailwindcss";
 
 @theme {
-  --color-background: #121212;
-  --color-foreground: #ededed;
+  --color-background: var(--bg-primary);
+  --color-foreground: var(--text-primary);
   --font-sans: var(--font-inter);
+  
+  --color-bg-primary: var(--bg-primary);
+  --color-bg-secondary: var(--bg-secondary);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-card-bg: var(--card-bg);
+  --color-card-hover-bg: var(--card-hover-bg);
+  --color-card-border: var(--card-border);
+  --color-border-primary: var(--border-primary);
+  --color-cursor-color: var(--cursor-color);
 }
 
 :root {
   --background: #121212;
   --foreground: #ededed;
+  
+  --bg-primary: #121212;
+  --bg-secondary: #0a0a0a;
+  --text-primary: #ffffff;
+  --text-secondary: #a3a3a3;
+  --card-bg: rgba(255, 255, 255, 0.05);
+  --card-hover-bg: rgba(255, 255, 255, 0.1);
+  --card-border: rgba(255, 255, 255, 0.1);
+  --border-primary: rgba(255, 255, 255, 0.1);
+  --cursor-color: #ffffff;
+}
+
+html[data-theme="light"] {
+  --background: #fcfcfc;
+  --foreground: #121212;
+  
+  --bg-primary: #fcfcfc;
+  --bg-secondary: #f4f4f5;
+  --text-primary: #121212;
+  --text-secondary: #52525b;
+  --card-bg: rgba(0, 0, 0, 0.03);
+  --card-hover-bg: rgba(0, 0, 0, 0.07);
+  --card-border: rgba(0, 0, 0, 0.08);
+  --border-primary: rgba(0, 0, 0, 0.08);
+  --cursor-color: #000000;
 }
 
 body {
-  background-color: var(--background);
-  color: var(--foreground);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
   overflow-x: hidden;
+  transition: background-color 0.5s cubic-bezier(0.4, 0, 0.2, 1), color 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Custom Cursor support: hide native cursor on devices with fine pointer controls */
+@media (hover: hover) and (pointer: fine) {
+  body, 
+  a, 
+  button, 
+  [role="button"], 
+  .cursor-pointer,
+  input[type="submit"],
+  input[type="button"] {
+    cursor: none !important;
+  }
 }

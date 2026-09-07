@@ -14,7 +14,7 @@ export default function Projects() {
       title: "AgentFlow AI — AI Workflow Automation System",
       category: "Python, FastAPI, React, LangGraph, RAG",
       description: "Built a multi-agent AI system to automate task extraction, prioritization, and workflow management. Integrated RAG-based knowledge retrieval and a dashboard for tracking tasks, reminders, and workflow status.",
-      link: "https://agentflow-five-mocha.vercel.app/"
+      link: "https://agentflow-ai-frontend-o8os.onrender.com"
     },
     {
       title: "Noir Luxe — Premium Full-Stack E-Commerce Platform",
